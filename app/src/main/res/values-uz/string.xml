@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="poet_name">Berdaq Ǵarǵabay ulı</string>
+    <string name="about_the_poet">Shoir haqida</string>
+    <string name="list_of_songs">She’rlar ro\'yxati</string>
+    <string name="about_as">Biz haqimizda</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="berdaq_shayir_qosiqlar_toplami">Berdaq shayir \nShe’rlar to’plami</string>
+    <string name="text_baslaw">Boshlash</string>
+    <string name="change_language">Tilni o\'zgartirish</string>
+    <string name="text_about_as">Biz haqimizda</string>
+    <string name="about_as_text">Ushbu ilovani Toshkent Pediatriya Tibbiyot Instituti 1-pediatriya va xalq tabobati fakulteti 433- guruh talabasi Kalbayeva Aruxan Jengisbayevna yaratdi.</string>
+    <string name="text_about_1">Toshkent Pediatriya Tibbiyot Institutida Berdaq hayotiga bag\'ishlangan tadbir bo\'lib o\'tdi</string>
+    <string name="tv_about_2">14 -fevral\'da adib ,olim ,sarkarda ,yirik davlat arbobi Zaxiriddin Muhammad Bobur tavalludining 541-yilligi munosabati bilan Adiblar xiyobonidagi shoir haykali poyida \'\' Yoshlarni vatanparvarlik ruhida tarbiyalashda Zaxiriddin Muhammad Bobur merosining o\'rni va ahamiyati \'\' ma\'uzusida ma\'naviy -ma\'rifiy tadbir bo\'lib otdi. Shu asnoda biz Berdaq stipendiati Utebaeva Baxargul\' bilan birgalikda  Toshkent Ichki Ishlar Akademiyasida oqiydigan talaba yoshlarga hamda ustozlarga Qoraqalpoq shoiri Berdaq haqqida keng ko\'lamda targ\'ibot ishlarini olib bordik.</string>
+    <string name="tv_about_3">Berdaq ijodida-ijtimoiy hayot talqini mavzusida targ’ibot va ilmiy ijodiy ishlar tanlovida ishtrok etish uchun ,Men O’zbekiston davlat xoreografiya akademiyasi da o’qiydigan talabalarni yig’dim va Berdaq bobomizning ,,Kelin’’ nomli she’rlariga muvofiq o’rtoqlarim bilan birga tog’ yaqiniga borib vidiorolik tashkilashtirdim. Va bu vidiorolikimni tanlovga qatnashish uchun tayyorladim .</string>
+</resources>

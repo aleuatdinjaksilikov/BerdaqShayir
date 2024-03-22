@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/startScreen">
+
+    <fragment
+        android:id="@+id/startScreen"
+        android:name="com.aleuatdinjaksilikov.berdaqshayir.presentation.ui.StartScreen"
+        android:label="fragment_start_screen"
+        tools:layout="@layout/fragment_start_screen" >
+        <action
+            android:id="@+id/action_startScreen_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/startScreen"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.aleuatdinjaksilikov.berdaqshayir.presentation.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_poetInfoFragment"
+            app:destination="@id/poetInfoFragment"/>
+        <action
+            android:id="@+id/action_mainFragment_to_songsListScreen"
+            app:destination="@id/songsListScreen"/>
+        <action
+            android:id="@+id/action_mainFragment_to_settingScreen"
+            app:destination="@id/settingScreen" />
+        <action
+            android:id="@+id/action_mainFragment_to_aboutAsScreen"
+            app:destination="@id/aboutAsScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/poetInfoFragment"
+        android:name="com.aleuatdinjaksilikov.berdaqshayir.presentation.ui.PoetInfoFragment"
+        android:label="fragment_poet_info"
+        tools:layout="@layout/fragment_poet_info" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/songsListScreen"
+        android:name="com.aleuatdinjaksilikov.berdaqshayir.presentation.ui.songs.SongsListScreen"
+        android:label="fragment_songs_list_screen"
+        tools:layout="@layout/fragment_songs_list_screen" >
+        <action
+            android:id="@+id/action_songsListScreen_to_songInfoScreen"
+            app:destination="@id/songInfoScreen" />
+        <argument
+            android:name="lang"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/songInfoScreen"
+        android:name="com.aleuatdinjaksilikov.berdaqshayir.presentation.ui.songs.SongInfoScreen"
+        android:label="fragment_song_info_screen"
+        tools:layout="@layout/fragment_song_info_screen" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <argument
+            android:name="lan"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingScreen"
+        android:name="com.aleuatdinjaksilikov.berdaqshayir.presentation.ui.SettingScreen"
+        android:label="fragment_setting_screen"
+        tools:layout="@layout/fragment_setting_screen" />
+    <fragment
+        android:id="@+id/aboutAsScreen"
+        android:name="com.aleuatdinjaksilikov.berdaqshayir.presentation.ui.AboutAsScreen"
+        android:label="fragment_about_as_screen"
+        tools:layout="@layout/fragment_about_as_screen" />
+</navigation>
